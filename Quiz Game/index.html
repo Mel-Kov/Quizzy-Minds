@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzy Minds</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="intro-screen">
+        <img src="intro-bc.png" alt="Background and name of the game: Quizzy Minds" id="bg-img" class="fade-in-img"/>
+        <div id="overlay"></div>
+        <button id="start-btn" class="rotate-in-startBtn">START</button>
+    </div>
+    <div id="background-elements" style="display: none;">
+        <div id="top-right-pink" class="circles"></div>
+        <div id="top-right-purple" class="circles"></div>
+        <div id="top-right-blue" class="circles"></div>
+        <div id="top-left-purple" class="circles"></div>
+        <div id="top-left-blue" class="circles"></div>
+        <div id="bottom-right-pink" class="circles"></div>
+        <div id="bottom-left-purple" class="circles"></div>
+        <div id="bottom-left-pink" class="circles"></div>
+        <div id="bottom-left-blue" class="circles"></div>
+        <div id="bottom-middle-purple" class="circles"></div>
+        <div id="top-to-middle-line"></div>
+        <div id="middle-to-bottom-line"></div>
+        <div id="bottom-left-line"></div>
+    </div>
+ 
+    <main style="display: none;">
+        <div id="border">
+            <div id="question-container" role="region" aria-live="polite"></div>
+            <p id="progress-num"></p>
+            <button id="next-btn" aria-label="Next question button">Next</button>
+        </div>
+        <div id="answers-grid">
+            <!-- <button id="ans-a" class="answer" type="submit"></button>
+            <button id="ans-b" class="answer" type="submit"></button>
+            <button id="ans-c" class="answer" type="submit"></button>
+            <button id="ans-d" class="answer" type="submit"></button> -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
