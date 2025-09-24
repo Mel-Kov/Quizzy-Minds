@@ -14,8 +14,8 @@ An interactive world quiz game built with HTML, CSS and JavaScript. Users answer
 4. See your final score at the end
 
 ## Build with: 
- HTML
- CSS
- JavaScript
+ -HTML
+ -CSS
+ -JavaScript
 
 Feel free to play with this project, customize it and make your own version!
