@@ -8,10 +8,10 @@ An interactive world quiz game built with HTML, CSS and JavaScript. Users answer
 - Score tracking
 
 ## How to play
-Click "start"
-Choose the correct answer for each question
-Read the fun fact after each question
-See your final score at the end
+1. Click "start"
+2. Choose the correct answer for each question
+3. Read the fun fact after each question
+4. See your final score at the end
 
 ## Build with: 
  HTML
